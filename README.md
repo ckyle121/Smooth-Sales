@@ -9,6 +9,9 @@ This application is the backend portion of an E-Commerce website. Express.js was
 * MySQL
 * Sequelize (npm pacakge for integrating MySQL and Node.js)
 
+## Screencastify Video Walk Through: 
+https://drive.google.com/file/d/1NO3IEbLo2Fsh2_GjO_n-1EzQ52PyDwru/view
+
 ## Example API requests: 
 #### GET request:
 
@@ -18,6 +21,3 @@ This application is the backend portion of an E-Commerce website. Express.js was
 
 ![image](https://user-images.githubusercontent.com/75647359/157578593-2ecd179b-8c5c-4b4a-82d7-b7c2442fa7cd.png)
 
-
-## Screencastify Video Walk Through: 
-https://drive.google.com/file/d/1NO3IEbLo2Fsh2_GjO_n-1EzQ52PyDwru/view

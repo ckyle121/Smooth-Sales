@@ -9,6 +9,11 @@ This application is the backend portion of an E-Commerce website. Express.js was
 * MySQL
 * Sequelize (npm pacakge for integrating MySQL and Node.js)
 
+## Installation 
+Once MySQL is installed on your local computer, you simply clone this repository into your local computer, and in the root folder e-commerce type into your command line interface, npm install. This will run your node package manager and give your dependencies the files they need. We need to connect our server and create the database that will hold your data. The video below demonstrates this. Running mysql -u root -p will instantiate MySQL. This creates a User of root and you will be prompted to enter the password you created for your MySQL server. Then enter source db/schema.sql, this will create the database ecommerce_db from the schema.sql file. Once this is done, simply type exit.
+
+Also, the password and username for your MySQL should be placed in a file in the root of the project called .env this is a .gitignore file so it will not be publicly displayed. Use the following template: DB_NAME='YourDatabaseNameHere',DB_USER='root',DB_PW='YourPasswordHere'. The dotenv will place those variables in your connection.js file without public display automatically.
+
 ## Screencastify Video Walk Through: 
 https://drive.google.com/file/d/1NO3IEbLo2Fsh2_GjO_n-1EzQ52PyDwru/view
 
